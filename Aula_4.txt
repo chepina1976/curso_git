@@ -1,0 +1,76 @@
+    1  git log
+    2  clear
+    3  git log --pretty=oneline
+    4  clea
+    5  clear
+    6  cd desktop
+    7  cd curso_git
+    8  git log
+    9  clear
+   10  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clear,
+   11  clear
+   12  git log
+   13  git log --pretty=oneline
+   14  git log --stat
+   15  git log -p
+   16  git log --pretty=oneline -2
+   17  git log --pretty=oneline -3
+   18  git log --pretty=oneline -4
+   19  git log --since=2.minutes
+   20  git log --since=2.weeks
+   21  git log --author='Marglorys Marin'
+   22  git status
+   23  touch teste
+   24  git add teste
+   25  git status
+   26  git commit -m 'commit de teste'
+   27  git log
+   28  git reset --soft HEAD~
+   29  GIT LOG
+   30  git log
+   31  git status
+   32  git commit -m 'commit de teste'
+   33  git reset --hard HEAD~
+   34  git log
+   35  git status
+   36  git log --pretty=oneline
+   37  git checkout HEAD~
+   38  git status
+   39  git log
+   40  ls
+   41  git checkout master
+   42  git log
+   43  git checkout HEAR~2
+   44  git log
+   45  git checkout HEAD~
+   46  git checkout master
+   47  mkdir .vscode
+   48  touch conf.txt
+   49  mv. conf.txt vscode/
+   50  ls .vscode/
+   51  ls
+   52  ls -a
+   53  git status
+   54  echo '.vscode/' > .gitignore
+   55  git status
+   56  touch pessoal.conf
+   57  git status
+   58  echo 'pessoal.conf' .gitignore
+   59  echo 'pessoal.conf' >> .gitignore
+   60  git status
+   61  git add .gitignore
+   62  git commit -m 'adicionado arquivo .gitignore'
+   63  git status
+   64  git add .gitignore
+   65  git status
+   66  git commit -m 'adicionado arquivo .gitignore'
+   67  git add #
+   68  git add *
+   69  git status
+   70  git commit -m 'subiendo aula_4'
+   71  git branch -m main
+   72  git branch -m master
+   73  ls -a
+   74  git add .
+   75  git status
+   76  history > Aula_4.txt
