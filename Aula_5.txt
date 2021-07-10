@@ -1,0 +1,230 @@
+    1  ls
+    2  ls -a
+    3  ls ..
+    4  pwd
+    5  ls
+    6  cd
+    7  cd desktop/
+    8  pwd
+    9  cd ..
+   10  cd desktop/
+   11  cd ~
+   12  cd d
+   13  cd desktop/
+   14  mkdir comandos
+   15  ls
+   16  cd comandos/
+   17  mkdir pasta nova
+   18  ls
+   19  mkdir "pasta nova"
+   20  ls
+   21  mkdir -p new/old
+   22  ls
+   23  ls new
+   24  rm
+   25   ls
+   26  rm -r pasta nova
+   27  rm -r new
+   28  ls
+   29  mv 'pasta nova' pasta_nova
+   30  ls
+   31  mv new pasta_nova
+   32  ls
+   33  ls pasta_nova
+   34  ls pasta_nova/
+   35  ls
+   36  ls pasta_nova
+   37  cd comandos
+   38  ls
+   39  git config --global user.name 'Marglorys Marin'
+   40  git config --global user.email 'chepinamg36@gmail.com
+   41  git config --global user.email 'chepinamg36@gmail.com'
+   42  git commit -m 'removendo pasta do git'
+   43  menu inicio
+   44  git config --global user.nome 'Marglorys Marin'
+   45  git config --global user.email 'chepinamg36@gmail.com'
+   46  git config user.name
+   47  cd desktop/
+   48  mkdir Curso_Git/
+   49  git config user.name
+   50  git init
+   51  5~
+   52  git rm miarchivo.php
+   53  clear
+   54  git config --global user.name 'Marglorys Marin'
+   55  git config --global user name 'chepinamg36@gmail.com'
+   56  git config --global user.email 'Marglorys Marin'
+   57  git rm -r arquivo
+   58  clear
+   59  git config --global user.name 'Marglorys Marin'
+   60  git config --global user.email 'chepinamg36@gmail.com'
+   61  git config user.name
+   62  cd desktop/
+   63  mkdir curso_git
+   64  cd curso_git
+   65  git confir user.name
+   66  git init
+   67  git status
+   68  echo '#aprendendo usar o git' > readme.md
+   69  git status
+   70  git add readme.md
+   71  git status
+   72  git commit -m 'commit inicial'
+   73  git status
+   74  echo '##aula 1' >> readme.md
+   75  git status
+   76  echo 'Marglorys Marin' > participantes.txt
+   77  git status
+   78  git add .
+   79  git status
+   80  git restore --staged participantes.txt
+   81  git status
+   82  git add participantes.txt
+   83  git status
+   84  git restore --staged .
+   85  git status
+   86  git commit -am 'alteração no readme'
+   87  git status
+   88  git add participantes.txt
+   89  git status
+   90  git commit -m 'adicionado particitantes.txt'
+   91  history > aula_3.txt
+   92  git status
+   93  git add .
+   94  git commit -m 'comandos da aula 3'
+   95  clear
+   96  git log
+   97  clear
+   98  git log
+   99  git log --stat
+  100  q
+  101  clear
+  102  clear
+  103  git log
+  104  clear
+  105  git log
+  106  clear
+  107  git log --pretty=oneline
+  108  clea
+  109  clear
+  110  cd desktop
+  111  cd curso_git
+  112  git log
+  113  clear
+  114  ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,clear,
+  115  clear
+  116  git log
+  117  git log --pretty=oneline
+  118  git log --stat
+  119  git log -p
+  120  git log --pretty=oneline -2
+  121  git log --pretty=oneline -3
+  122  git log --pretty=oneline -4
+  123  git log --since=2.minutes
+  124  git log --since=2.weeks
+  125  git log --author='Marglorys Marin'
+  126  git status
+  127  touch teste
+  128  git add teste
+  129  git status
+  130  git commit -m 'commit de teste'
+  131  git log
+  132  git reset --soft HEAD~
+  133  GIT LOG
+  134  git log
+  135  git status
+  136  git commit -m 'commit de teste'
+  137  git reset --hard HEAD~
+  138  git log
+  139  git status
+  140  git log --pretty=oneline
+  141  git checkout HEAD~
+  142  git status
+  143  git log
+  144  ls
+  145  git checkout master
+  146  git log
+  147  git checkout HEAR~2
+  148  git log
+  149  git checkout HEAD~
+  150  git checkout master
+  151  mkdir .vscode
+  152  touch conf.txt
+  153  mv. conf.txt vscode/
+  154  ls .vscode/
+  155  ls
+  156  ls -a
+  157  git status
+  158  echo '.vscode/' > .gitignore
+  159  git status
+  160  touch pessoal.conf
+  161  git status
+  162  echo 'pessoal.conf' .gitignore
+  163  echo 'pessoal.conf' >> .gitignore
+  164  git status
+  165  git add .gitignore
+  166  git commit -m 'adicionado arquivo .gitignore'
+  167  git status
+  168  git add .gitignore
+  169  git status
+  170  git commit -m 'adicionado arquivo .gitignore'
+  171  git add #
+  172  git add *
+  173  git status
+  174  git commit -m 'subiendo aula_4'
+  175  git branch -m main
+  176  git branch -m master
+  177  ls -a
+  178  git add .
+  179  git status
+  180  history > Aula_4.txt
+  181  git status
+  182  git add .
+  183  git commit -m 'comandos da Aula 4'
+  184  history -c: clear
+  185  clear
+  186  cd curso_git
+  187  cd dektop
+  188  clear
+  189  cd Desktop
+  190  cd curso_git
+  191  cd desktop/
+  192  cd curso_git
+  193  git branch
+  194  git checkout -b feature
+  195  git branch
+  196  touch Nova_feature
+  197  git status
+  198  git add Nova-feature
+  199  git add Nova_feature
+  200  git commit -m 'adicionando nova Feature'
+  201  git log
+  202  git checkout master
+  203  git status
+  204  git log
+  205  touch continuando_master
+  206  git add continuando_master
+  207  git commit -m 'adicionado continuacao na master'
+  208  git checkout feature
+  209  git log
+  210  git checkout -b feature2 master
+  211  git log
+  212  git checkout feature2
+  213  git log
+  214  git branch -d feature2
+  215  git checkout master
+  216  git branch -d feature2
+  217  git log
+  218  git checkout feature2
+  219  clear
+  220  git checkout feature
+  221  git log -- pretty=oneline --graph
+  222  git log --pretty=oneline --graph
+  223  git merge master
+  224  git log
+  225  git log --pretty=oneline --graph
+  226  git reset --hard HEAD~
+  227  git log --pretty=oneline --graph
+  228  git rebase master
+  229  git log --prety=oneline --graph
+  230  history > Aula_5.txt
